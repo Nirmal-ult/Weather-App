@@ -1,0 +1,100 @@
+.weather-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(114, 169, 249);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 143, 247); 
+}
+.search-input input{
+    padding: 10px 10px;
+    width: 200px;
+    border: white 0.5px solid;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgb(114, 169, 249);
+    font-weight: bold;
+}
+.search-input input:focus {
+    outline: none;              
+    border: 1px solid white;   
+    box-shadow: 0 0 4px white; 
+}
+.search-input button{
+    padding: 11px 20px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(72, 143, 247);
+}
+.weather-container h2{
+    font-size: 32px;
+    margin: 20px 0;
+}
+.weather-container h1{
+    font-size: 50px;
+    margin: 40px 0;
+}
+.clouds{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px 0;
+}
+.line{
+    color: white;
+    border:none ;
+    margin: 20px 0;
+    opacity: 0.5;
+    border-bottom: 1px solid;
+}
+.clouds h5{
+    font-size: 20px;
+}
+.humidity-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.humidity{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.humidity p{
+    font-size: 14px;
+}
+.humidity h5{
+    font-size: 14px;
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+  
