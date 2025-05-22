@@ -94,7 +94,7 @@ const Weather = () => {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button onClick={() => fetchWeather()}>Search</button>
+        <button onClick={() => fetchWeather()}>Search City</button>
       </div>
 
       {error && <p style={{ color: 'red' }}>{error}</p>}
